@@ -1,0 +1,8 @@
+#!/bin/bash
+x=10
+while [ $x -le 22 ]
+do
+  echo "Welcome $x times"
+  mkdir "chr"$x"_parallel"
+  x=$(( $x + 1 ))
+done
