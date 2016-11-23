@@ -1,0 +1,8 @@
+#!/bin/bash
+x=2
+while [ $x -le 22 ]
+do
+  echo "Welcome, you are at CHR $x !"
+  zcat ALL.chr$x.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf | sed /^#/d | cut -f "2" > chr$x.genotype_positions_col.csv
+  x=$(( $x + 1 ))
+done
