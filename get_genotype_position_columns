@@ -1,5 +1,5 @@
 #!/bin/bash
-x=2
+x=1
 while [ $x -le 22 ]
 do
   echo "Welcome, you are at CHR $x !"
