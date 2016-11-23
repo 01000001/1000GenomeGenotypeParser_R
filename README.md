@@ -24,6 +24,6 @@ Combine the filtered genotype data
 ```linux
 Rscript Combine_genotype_chunks.R 22
 ```
-  This creates sparse matrices per chromose (size of 7.9 Megabyte for chromosome 22 and 43 Mb for Chr 1).
+  This creates sparse matrices per chromose (size of 7.9 Megabyte for Chromosome 22 and 43 Mb for Chr 1).
 
 
